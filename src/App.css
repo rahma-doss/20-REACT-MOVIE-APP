@@ -1,22 +1,41 @@
-.App {
-  text-align: center;
+.App{
+  width: 50%;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 25px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
+.movieNav{
+  display: flex;
+  
+}
+input{
+  width: 60%;
+}
+button{
+  width: 20%;
+  margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.moviecard{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 30%;
+  border: solid black 1px;
+  margin-top: 7%;
 }
-
-.App-link {
-  color: #09d3ac;
+.moviecard img{
+width: 100%;
+}
+/* .Movie-note{
+  border: solid black 1px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+} */
+.Movielist{
+  display: flex;
+  justify-content: space-around;
 }
